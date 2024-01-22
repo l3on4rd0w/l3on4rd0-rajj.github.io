@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
+
 }
 
 a {
@@ -15,120 +16,9 @@ a:hover {
 }
 
 ul {
-    list-style: inside;
+    list-style:inside;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-    .btn-back {
-        font-size: 30px;
-    }
-
-    .container-page {
-        gap: 5px;
-    }
-
-    .head-page {
-        height: 100px;
-    }
-
-    .logo {
-        width: 120px;
-    }
-
-    .logo a img {
-        width: 80px;
-    }
-
-    .content-page {
-        gap: 5px;
-    }
-
-    .modules-content {
-        padding: 10px 20px;
-    }
-
-    .modules-content .modules {
-        width: 40%;
-    }
-
-    .content-page .bg-img img {
-        width: 50%;
-    }
-
-    .panel-links {
-        width: 100%;
-    }
-
-    .panel-links ul {
-        gap: 2px;
-    }
-
-    footer .top {
-        height: 60%;
-    }
-
-    footer .logo img {
-        width: 50%;
-    }
-
-    footer .bottom p {
-        font-size: 10px;
-    }
-
-    footer .creators ul li {
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .btn-back {
-        font-size: 20px;
-    }
-
-    .head-page {
-        height: 80px;
-    }
-
-    .logo {
-        width: 100px;
-    }
-
-    .logo a img {
-        width: 60px;
-    }
-
-    .modules-content .modules {
-        width: 50%;
-    }
-
-    .content-page .bg-img img {
-        width: 70%;
-    }
-
-    .panel-links {
-        padding: 10px;
-    }
-
-    footer .top {
-        height: 50%;
-    }
-
-    footer .logo img {
-        width: 40%;
-    }
-
-    footer .bottom p {
-        font-size: 8px;
-    }
-
-    footer .creators ul li {
-        font-size: 8px;
-    }
-}
-/* End of Responsive Styles */
-
-/* Remaining Styles */
 .btn-back {
     height: 30px;
     font-size: 50px;
@@ -142,12 +32,11 @@ ul {
 
 .container-page {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: antiquewhite;
     color: #008000;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .head-page {
@@ -181,7 +70,7 @@ ul {
 
 .content-page {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -235,6 +124,8 @@ ul {
     opacity: .1;
 }
 
+/* Painel de links */
+
 .panel-links {
     width: 80%;
     height: 80%;
@@ -248,6 +139,8 @@ ul {
     flex-direction: column;
     gap: 5px;
 }
+
+/* footer */
 
 footer {
     height: 150px;
