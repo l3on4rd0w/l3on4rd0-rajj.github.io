@@ -101,7 +101,6 @@ ul {
 
     .modules-content .modules {
         width: 90%;
-        margin-bottom: 10px;
     }
 
     .content-page .bg-img img {
@@ -130,11 +129,24 @@ ul {
     footer .creators ul li {
         font-size: 8px;
     }
-    
-    /* Adjustments for Vertical Orientation */
-    .modules-content {
-        padding: 10px;
-        flex-direction: column;
+}
+
+/* Additional Styles for Vertical Orientation */
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    .head-page {
+        height: 120px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .logo a img {
+        width: 50px;
+    }
+
+    .content-page .bg-img img {
+        width: 100%;
     }
 
     .modules-content .modules {
@@ -145,7 +157,7 @@ ul {
         width: 100%;
     }
 }
-/* End of Responsive Styles */
+/* End of Additional Styles for Vertical Orientation */
 
 /* Remaining Styles */
 .btn-back {
