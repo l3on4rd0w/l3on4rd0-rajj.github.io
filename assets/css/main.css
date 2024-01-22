@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
+    
 }
 
 a {
@@ -15,151 +16,9 @@ a:hover {
 }
 
 ul {
-    list-style: inside;
+    list-style:inside;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-    .btn-back {
-        font-size: 30px;
-    }
-
-    .container-page {
-        gap: 5px;
-    }
-
-    .head-page {
-        height: 100px;
-    }
-
-    .logo {
-        width: 120px;
-    }
-
-    .logo a img {
-        width: 80px;
-    }
-
-    .content-page {
-        gap: 5px;
-    }
-
-    .modules-content {
-        padding: 10px;
-        flex-direction: column;
-    }
-
-    .modules-content .modules {
-        width: 80%;
-        margin-bottom: 10px;
-    }
-
-    .content-page .bg-img img {
-        width: 80%;
-    }
-
-    .panel-links {
-        padding: 10px;
-    }
-
-    footer .top {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer .logo img {
-        width: 50%;
-        margin-bottom: 10px;
-    }
-
-    footer .bottom p {
-        font-size: 10px;
-    }
-
-    footer .creators ul li {
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .btn-back {
-        font-size: 20px;
-    }
-
-    .head-page {
-        height: 80px;
-    }
-
-    .logo {
-        width: 100px;
-    }
-
-    .logo a img {
-        width: 60px;
-    }
-
-    .modules-content .modules {
-        width: 90%;
-    }
-
-    .content-page .bg-img img {
-        width: 90%;
-    }
-
-    .panel-links {
-        padding: 5px;
-    }
-
-    footer .top {
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer .logo img {
-        width: 40%;
-        margin-bottom: 5px;
-    }
-
-    footer .bottom p {
-        font-size: 8px;
-    }
-
-    footer .creators ul li {
-        font-size: 8px;
-    }
-}
-
-/* Additional Styles for Vertical Orientation */
-@media screen and (max-width: 480px) and (orientation: portrait) {
-    .head-page {
-        height: 120px;
-    }
-
-    .logo {
-        width: 80px;
-    }
-
-    .logo a img {
-        width: 50px;
-    }
-
-    .content-page .bg-img img {
-        width: 100%;
-    }
-
-    .modules-content .modules {
-        width: 100%;
-    }
-
-    .panel-links {
-        width: 100%;
-    }
-}
-/* End of Additional Styles for Vertical Orientation */
-
-/* Remaining Styles */
 .btn-back {
     height: 30px;
     font-size: 50px;
@@ -173,12 +32,11 @@ ul {
 
 .container-page {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: antiquewhite;
     color: #008000;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .head-page {
@@ -212,7 +70,7 @@ ul {
 
 .content-page {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -266,6 +124,8 @@ ul {
     opacity: .1;
 }
 
+/* Painel de links */
+
 .panel-links {
     width: 80%;
     height: 80%;
@@ -279,6 +139,8 @@ ul {
     flex-direction: column;
     gap: 5px;
 }
+
+/* footer */
 
 footer {
     height: 150px;
