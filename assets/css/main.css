@@ -206,4 +206,8 @@ footer .creators ul li{
     .content-page .modules-content .modules {
         width: 100%;
     }
+
+    footer .creators ul li a {
+        font-size: 10px;
+    }
 }
