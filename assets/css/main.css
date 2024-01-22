@@ -47,7 +47,6 @@ ul {
     .modules-content {
         padding: 10px;
         flex-direction: column;
-        align-items: center; /* Center elements vertically on smaller screens */
     }
 
     .modules-content .modules {
@@ -136,16 +135,14 @@ ul {
     .modules-content {
         padding: 10px;
         flex-direction: column;
-        align-items: center; /* Center elements vertically on smaller screens */
     }
 
     .modules-content .modules {
-        width: 80%;
-        margin-bottom: 10px;
+        width: 100%;
     }
 
     .panel-links {
-        width: 100%; /* Full width for better spacing */
+        width: 100%;
     }
 }
 /* End of Responsive Styles */
@@ -217,14 +214,13 @@ ul {
     height: 100%;
     padding: 20px 50px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .modules-content .modules {
     z-index: 1000;
-    width: 80%; /* Adjusted width for better spacing */
+    width: 30%;
     height: 20%;
     border: 2px solid #008000;
     border-radius: 10px;
@@ -233,7 +229,6 @@ ul {
     align-items: center;
     text-decoration: none;
     color: #008000;
-    margin-bottom: 10px;
 }
 
 .modules-content .modules:hover {
@@ -260,13 +255,11 @@ ul {
 }
 
 .panel-links {
-    width: 100%; /* Full width for better spacing */
+    width: 80%;
     height: 80%;
     border: 2px solid #008000;
     padding: 15px;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center elements vertically on smaller screens */
 }
 
 .panel-links ul {
