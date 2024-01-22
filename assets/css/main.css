@@ -193,3 +193,17 @@ footer .creators ul li{
     margin-top: 4px;
     color: #bae9ba;
 }
+
+/* MEDIAS */
+
+@media only screen and (max-width: 800px) {
+    .content-page .modules-content {
+        display: flex;
+        flex-direction: column;
+        gap: -5px;
+    }
+
+    .content-page .modules-content .modules {
+        width: 100%;
+    }
+}
